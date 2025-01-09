@@ -13,10 +13,9 @@ These cheatsheets are my own takes on what is useful for interacting with their 
 
 ## Available Cheatsheets
 
-- [US Layout](US_Keylayout.md) - Comprehensive mapping of the US keyboard layout:
+- [US Keylayout](US_Keylayout.md) - Comprehensive mapping of the US keyboard layout:
   - Base layer mappings
   - Shift layer combinations
-  - Alt layer special characters
   - Visual layout reference
 
 ## Coming Soon
