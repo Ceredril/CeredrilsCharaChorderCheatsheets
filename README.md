@@ -1,45 +1,36 @@
 # CeredrilsCharaChorderCheatsheets
 
-Welcome to my collection of CharaChorder cheatsheets! This repository aims to provide clear, comprehensive, and easy-to-reference documentation for various CharaChorder needs.
+A collection of convenient and easy-to-reference cheatsheets for CharaChorder devices.
 
-## Overview
+## About CharaChorders
 
-The CharaChorder is a unique input device that combines 2 interesting ideas:
+CharaChorder combines two interesting ideas:
 
 1. [3D Input](https://www.youtube.com/watch?v=eH87_pgb8yE)
-2. [chord typing capabilities](https://en.wikipedia.org/wiki/Chorded_keyboard)(chording) next to traditional keyboard character entry (chentry).
+2. [chord typing capabilities](https://en.wikipedia.org/wiki/Chorded_keyboard)(chording) next to traditional keyboard character entry (chentry)
 
-These cheatsheets are my own takes on what is useful for interacting with a CharaChorder an in no way affiliated with the company
+These cheatsheets are my own takes on what is useful for interacting with their devices
 
 ## Available Cheatsheets
 
-### Keyboard Layouts
-
-- [US Layout](US_Keylayout.md) - Comprehensive mapping of the US keyboard layout including:
+- [US Layout](US_Keylayout.md) - Comprehensive mapping of the US keyboard layout:
   - Base layer mappings
   - Shift layer combinations
   - Alt layer special characters
   - Visual layout reference
 
-## Contributing
-
-**Be aware that I will include contributions to my personal liking only!!**
-Feel free to contribute additional cheatsheets, corrections, or improvements! If you'd like to contribute:
-
-1. Fork the repository
-2. Create your feature branch
-3. Add your cheatsheets or make improvements
-4. Submit a pull request
-
 ## Coming Soon
 
-- My personal favorite layout
-- tbu
+- Personal favorite layout configuration
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## License
 
-This project is open source. Feel free to use, share, and modify these cheatsheets while providing appropriate attribution.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-_Note: This is not an official CharaChorder repository. For official documentation, please visit [CharaChorder's website](https://www.charachorder.com)._
+_Note: This is a community-driven resource and not affiliated with CharaChorder. For official documentation, visit [CharaChorder's website](https://www.charachorder.com)._
