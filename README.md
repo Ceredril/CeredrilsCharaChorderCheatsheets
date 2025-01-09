@@ -6,8 +6,8 @@ Welcome to my collection of CharaChorder cheatsheets! This repository aims to pr
 
 The CharaChorder is a unique input device that combines 2 interesting ideas:
 
-1. 3D Input
-2. chord typing capabilities (chording) next to traditional keyboard character entry (chentry).
+1. [3D Input](https://www.youtube.com/watch?v=eH87_pgb8yE)
+2. [chord typing capabilities](https://en.wikipedia.org/wiki/Chorded_keyboard)(chording) next to traditional keyboard character entry (chentry).
 
 These cheatsheets are my own takes on what is useful for interacting with a CharaChorder an in no way affiliated with the company
 
@@ -20,16 +20,6 @@ These cheatsheets are my own takes on what is useful for interacting with a Char
   - Shift layer combinations
   - Alt layer special characters
   - Visual layout reference
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── US_Keylayout.md
-└── assets/
-    └── us_base_shift_alt_layers.svg
-```
 
 ## Contributing
 
