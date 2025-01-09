@@ -1,4 +1,4 @@
-# US Keyboard Layout Cheatsheet
+# US Keylayout Cheatsheet
 
 Note: This cheatsheet covers only the base and shift layers, which are consistent across all operating systems. The Alt/Option layer is excluded because both the required key combinations AND the resulting characters vary significantly between:
 
@@ -81,4 +81,10 @@ Note: This cheatsheet covers only the base and shift layers, which are consisten
 | ----- | ---------- | ----------- |
 | Space | (space)    | (space)     |
 
-_Note: This is a community-driven resource and not affiliated with CharaChorder. For official documentation, visit [CharaChorder's website](https://www.charachorder.com)._
+<div align="center">
+
+_This is a community-driven resource and is not affiliated with CharaChorder._
+
+[Official CharaChorder Website](https://www.charachorder.com) • [Report an Issue](https://github.com/Ceredril/CharaChorderCheatsheets/issues)
+
+</div>
