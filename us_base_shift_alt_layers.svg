@@ -1,0 +1,361 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400">
+  <!-- Background -->
+  <rect width="1000" height="400" fill="#f0f0f0"/>
+  
+  <!-- Function for creating a key -->
+  <defs>
+    <g id="key">
+      <rect width="60" height="60" rx="6" fill="white" stroke="#333" stroke-width="1"/>
+    </g>
+  </defs>
+
+  <!-- Number Row -->
+  <g transform="translate(20,20)">
+    <!-- Backtick/Tilde -->
+    <g>
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">~</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">`</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">`</text>
+    </g>
+    <!-- 1 -->
+    <g transform="translate(70,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">!</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">¡</text>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(140,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">@</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">™</text>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(210,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">#</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">£</text>
+    </g>
+    <!-- 4 -->
+    <g transform="translate(280,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">$</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">4</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">¢</text>
+    </g>
+    <!-- 5 -->
+    <g transform="translate(350,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">%</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">5</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">∞</text>
+    </g>
+    <!-- 6 -->
+    <g transform="translate(420,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">^</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">6</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">§</text>
+    </g>
+    <!-- 7 -->
+    <g transform="translate(490,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">&amp;</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">7</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">¶</text>
+    </g>
+    <!-- 8 -->
+    <g transform="translate(560,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">*</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">8</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">•</text>
+    </g>
+    <!-- 9 -->
+    <g transform="translate(630,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">(</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">9</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ª</text>
+    </g>
+    <!-- 0 -->
+    <g transform="translate(700,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">)</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">0</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">º</text>
+    </g>
+    <!-- - -->
+    <g transform="translate(770,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">_</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">-</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">–</text>
+    </g>
+    <!-- = -->
+    <g transform="translate(840,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">+</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">=</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">≠</text>
+    </g>
+  </g>
+
+  <!-- Top Letter Row -->
+  <g transform="translate(50,90)">
+    <!-- Q -->
+    <g>
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">Q</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">q</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">œ</text>
+    </g>
+    <!-- W -->
+    <g transform="translate(70,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">W</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">w</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">∑</text>
+    </g>
+    <!-- E -->
+    <g transform="translate(140,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">E</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">e</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">é</text>
+    </g>
+    <!-- R -->
+    <g transform="translate(210,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">R</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">r</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">®</text>
+    </g>
+    <!-- T -->
+    <g transform="translate(280,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">T</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">t</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">†</text>
+    </g>
+    <!-- Y -->
+    <g transform="translate(350,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">Y</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">y</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">¥</text>
+    </g>
+    <!-- U -->
+    <g transform="translate(420,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">U</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">u</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ü</text>
+    </g>
+    <!-- I -->
+    <g transform="translate(490,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">I</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">i</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">î</text>
+    </g>
+    <!-- O -->
+    <g transform="translate(560,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">O</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">o</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ø</text>
+    </g>
+    <!-- P -->
+    <g transform="translate(630,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">P</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">p</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">π</text>
+    </g>
+    <!-- [ -->
+    <g transform="translate(700,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">{</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">[</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">"</text>
+    </g>
+    <!-- ] -->
+    <g transform="translate(770,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">}</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">]</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">"</text>
+    </g>
+    <!-- \ -->
+    <g transform="translate(840,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">|</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">\</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">«</text>
+    </g>
+  </g>
+
+  <!-- Home Row -->
+  <g transform="translate(65,160)">
+    <!-- A -->
+    <g>
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">A</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">a</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">å</text>
+    </g>
+    <!-- S -->
+    <g transform="translate(70,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">S</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">s</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ß</text>
+    </g>
+    <!-- D -->
+    <g transform="translate(140,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">D</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">d</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">∂</text>
+    </g>
+    <!-- F -->
+    <g transform="translate(210,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">F</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">f</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ƒ</text>
+    </g>
+    <!-- G -->
+    <g transform="translate(280,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">G</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">g</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">©</text>
+    </g>
+    <!-- H -->
+    <g transform="translate(350,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">H</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">h</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">˙</text>
+    </g>
+    <!-- J -->
+    <g transform="translate(420,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">J</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">j</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">∆</text>
+    </g>
+    <!-- K -->
+    <g transform="translate(490,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">K</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">k</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">˚</text>
+    </g>
+    <!-- L -->
+    <g transform="translate(560,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">L</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">l</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">¬</text>
+    </g>
+    <!-- ; -->
+    <g transform="translate(630,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">:</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">;</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">…</text>
+    </g>
+    <!-- ' -->
+    <g transform="translate(700,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">"</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">'</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">æ</text>
+    </g>
+  </g>
+
+  <!-- Bottom Row -->
+  <g transform="translate(85,230)">
+    <!-- Z -->
+    <g>
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">Z</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">z</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">Ω</text>
+    </g>
+    <!-- X -->
+    <g transform="translate(70,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">X</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">x</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">≈</text>
+    </g>
+    <!-- C -->
+    <g transform="translate(140,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">C</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">c</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ç</text>
+    </g>
+    <!-- V -->
+    <g transform="translate(210,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">V</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">v</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">√</text>
+    </g>
+    <!-- B -->
+    <g transform="translate(280,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">B</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">b</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">∫</text>
+    </g>
+    <!-- N -->
+    <g transform="translate(350,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">N</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">n</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">ñ</text>
+    </g>
+    <!-- M -->
+    <g transform="translate(420,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">M</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">m</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">µ</text>
+    </g>
+    <!-- , -->
+    <g transform="translate(490,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">&lt;</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">,</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">≤</text>
+    </g>
+    <!-- . -->
+    <g transform="translate(560,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">&gt;</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">.</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">≥</text>
+    </g>
+    <!-- / -->
+    <g transform="translate(630,0)">
+      <use href="#key"/>
+      <text x="30" y="15" font-family="monospace" font-size="12" text-anchor="middle">?</text>
+      <text x="30" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">/</text>
+      <text x="30" y="55" font-family="monospace" font-size="12" text-anchor="middle">÷</text>
+    </g>
+  </g>
+  <!-- Spacebar -->
+    <g transform="translate(200,300)">
+        <rect width="400" height="60" rx="6" fill="white" stroke="#333" stroke-width="1"/>
+        <text x="200" y="35" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Space</text>
+    </g>
+</svg>
