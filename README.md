@@ -1,4 +1,4 @@
-# CeredrilsCharaChorderCheatsheets
+# CharaChorderCheatsheets
 
 A collection of convenient and easy-to-reference cheatsheets for CharaChorder devices.
 
